@@ -9,11 +9,11 @@ let b = 1
 console.log(`Result is ${addNum(30, 1)}`)
 
 
-//Rueben
+//Rueben (working with Sara)
 function addition(a, b,){
     return a+b
 }
-console.log(addition(2,4))
+console.log(addition(12,24))
 
 
 //Todd
@@ -28,5 +28,4 @@ const hisAge = 31
 
 const totalAge = addition(30,31)
 
-console.log("The total of Danielle and Jeremiah;'s ages are", totalAge)
-//...rest of code is in GeniusScan on phone...
+console.log("The total of Danielle and Jeremiah;'s ages are", totalAge) //...rest of code is in GeniusScan on phone...
