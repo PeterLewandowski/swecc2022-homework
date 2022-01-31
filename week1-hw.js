@@ -136,4 +136,42 @@ function assignGrade(score) {
     
 }
 
-assignGrade(60.999)
+assignGrade(59.999) // no output if 60.999 is input, check with the TAs
+
+
+// Vitoria's Javascript Practice
+
+const person = {
+    firstName: "Todd",
+    lastName: "Albert",
+    email: "todd@bocacode.com",
+  }
+
+function personInfo (info) {
+    console.log(`${info.firstName} ${info.lastName}`)
+}
+
+personInfo(person)
+
+// 1. Write a function that adds two numbers together.
+
+function addition (a,b) {
+   return a + b
+}
+
+console.log(addition(2, 2))
+
+// 2. Create a function that takes the age in years and returns the age in days.
+
+function daysAge (yrs) {
+  return yrs * 365
+}
+console.log(daysAge(31))
+
+// 3. Create a function that takes an array containing only numbers and returns the first element.
+
+function element (arr) {
+  return arr[0]
+}
+
+console.log(element('STRING'))
